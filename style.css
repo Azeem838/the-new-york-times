@@ -46,8 +46,26 @@ body {
   font-weight: 700;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.article {
+  width: 70%;
+  margin: 5px auto;
+}
+.article-title {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 700;
+  padding: 0 300px 0px 150px;
+}
+.article-img-container,
+.article-img {
+  width: 100%;
+}
+.figcaption {
+  max-width: 640px;
+}
+.figcaption p {
+  color: #666666;
+}
+.figcaption p span {
+  color: #888;
 }
