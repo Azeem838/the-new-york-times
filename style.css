@@ -93,3 +93,10 @@ body {
 .article-meta .links a:hover {
   background: #fff;
 }
+.links a.bookmark {
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 100;
+  padding: 0px;
+  border-radius: 0;
+}
