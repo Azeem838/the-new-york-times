@@ -55,6 +55,7 @@ body {
   font-style: italic;
   font-weight: 700;
   padding: 0 300px 0px 150px;
+  font-family: "Vollkorn", serif;
 }
 .article-img-container,
 .article-img {
@@ -68,4 +69,27 @@ body {
 }
 .figcaption p span {
   color: #888;
+}
+.article-content {
+  width: 70%;
+  margin: 2px auto;
+}
+.article-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article-meta .links a {
+  padding: 8px;
+  display: inline;
+  margin-right: 8px;
+  color: #000;
+  font-size: 0.7rem;
+  border-radius: 50%;
+  background-color: #eeeeee;
+  border: 1px solid #eeee;
+}
+
+.article-meta .links a:hover {
+  background: #fff;
 }
