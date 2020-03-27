@@ -205,8 +205,9 @@ iframe {
 .theory-container {
   height: 600px;
   width: 1000px;
-  margin: 8rem 0px;
+  margin: 4rem 0px 15rem;
   margin-left: -170px;
+  position: relative;
 }
 .theory-image {
   width: 100%;
@@ -229,4 +230,14 @@ iframe {
 }
 .t-2 {
   padding-top: 9rem;
+}
+.theory-container figcaption {
+  margin: 30px;
+}
+.theory-container figcaption::before {
+  content: "";
+  position: absolute;
+  padding-left: 99px;
+  bottom: -136px;
+  border-bottom: 2px solid #333;
 }
