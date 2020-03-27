@@ -241,3 +241,23 @@ iframe {
   bottom: -136px;
   border-bottom: 2px solid #333;
 }
+.grid-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+.astronomy {
+  grid-column: 1/2;
+}
+.articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2;
+  grid-gap: 10px;
+}
+.single-article {
+  grid-column: 1fr;
+}
+.single-article img {
+  width: 100%;
+}
