@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+  height: 40px;
+}
+
+.leftnav {
+  display: flex;
+  align-items: center;
+}
+
+.leftnav a {
+  padding: 12px;
+  color: black;
+}
+
+.navtitle {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navtitle:hover {
+  text-decoration: underline;
+}
+
+.rightnav a {
+  color: white;
+  border: 1px solid #326891;
+  background-color: #567b95;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 11px 12px 8px 12px;
+  font-size: 11px;
+  font-weight: 700;
+}
