@@ -18,7 +18,7 @@ img {
   background: #fff;
   z-index: 9;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e2e2e2;
   height: 40px;
@@ -57,6 +57,7 @@ img {
   padding: 11px 12px 8px 12px;
   font-size: 11px;
   font-weight: 700;
+  margin-right: 12px;
 }
 
 .article {
@@ -475,4 +476,10 @@ footer div a:hover {
 
 .bottom-links > a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .editors-pick {
+    display: none;
+  }
 }
