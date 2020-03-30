@@ -1,47 +1,50 @@
 body {
+  font-family: "Lora", serif;
   margin: 0;
   padding: 0;
-  font-family: "Lora", serif;
 }
+
 img {
   width: 100%;
 }
+
 .wrapper {
   margin: 0;
   padding: 0;
 }
 
 .navbar {
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  margin-bottom: 5px;
   position: fixed;
   top: 0;
   width: 100%;
-  background: #fff;
   z-index: 9;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #e2e2e2;
-  height: 40px;
-  margin-bottom: 5px;
 }
 
 .leftnav {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .leftnav a {
-  padding: 12px;
   color: black;
+  padding: 12px;
 }
+
 .logo {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .navtitle {
-  text-decoration: none;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .navtitle:hover {
@@ -49,59 +52,68 @@ img {
 }
 
 .rightnav a {
-  color: white;
-  border: 1px solid #326891;
   background-color: #567b95;
+  border: 1px solid #326891;
   border-radius: 3px;
-  text-decoration: none;
-  padding: 11px 12px 8px 12px;
+  color: white;
   font-size: 11px;
   font-weight: 700;
   margin-right: 12px;
+  padding: 11px 12px 8px 12px;
+  text-decoration: none;
 }
 
 .article {
-  width: 70%;
   margin: 100px auto 5px;
+  width: 70%;
 }
+
 .article-title {
+  font-family: "Vollkorn", serif;
   font-size: 2rem;
   font-style: italic;
   font-weight: 700;
-  padding: 0 300px 0px 150px;
-  font-family: "Vollkorn", serif;
+  padding: 0 300px 0 150px;
 }
+
 .article-img-container,
 .article-img {
   width: 100%;
 }
+
 .figcaption {
   max-width: 900px;
 }
-.figcaption p {
-  color: #666666;
+
+.figcaption {
+  color: #666;
+  margin-top: -5px;
 }
-.figcaption p span {
+
+.figcaption span {
   color: #888;
 }
+
 .article-content {
-  width: 600px;
   margin: 2px auto;
+  width: 600px;
 }
+
 .article-meta {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
+
 .article-meta .links a {
-  padding: 6px;
-  display: inline;
-  margin-right: 12px;
-  color: #000;
-  font-size: 0.8rem;
-  border-radius: 50%;
-  background-color: #eeeeee;
+  background-color: #eee;
   border: 1px solid #eeee;
+  border-radius: 50%;
+  color: #000;
+  display: inline;
+  font-size: 0.8rem;
+  margin-right: 12px;
+  padding: 6px;
 }
 
 .article-meta .links a:hover {
@@ -109,43 +121,43 @@ img {
 }
 
 .links {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .links a.bookmark {
-  border: none;
   background: none;
+  border: none;
+  border-radius: 0;
   font-size: 1.6rem;
   font-weight: 100;
-  padding: 0px;
-  border-radius: 0;
   margin-top: 2px;
+  padding: 0;
 }
 
 .text-content {
+  color: #333;
   font-size: 20px;
   font-weight: 200;
-  color: #333;
 }
 
 .comments::before {
   content: "615";
   font-size: 10px;
+  padding: 5px;
   position: absolute;
   text-align: center;
-  padding: 5px;
 }
 
 .article-author {
+  color: #333;
   font-size: 15px;
   font-weight: 700;
-  color: #333;
 }
 
 .article-author a {
-  color: #333;
   border-bottom: 1px solid #ccc;
+  color: #333;
   text-decoration: none;
 }
 
@@ -154,35 +166,37 @@ img {
 }
 
 iframe {
-  width: 100%;
   height: 358px;
+  width: 100%;
 }
 
 .caption {
+  color: #666;
   font-size: 15px;
-  color: #666;
   width: 77%;
+  margin-top: -5px;
 }
+
 .time {
-  font-size: 12px;
   color: #666;
+  font-size: 12px;
 }
 
 .caption span {
-  font-size: 13px;
   color: #888;
+  font-size: 13px;
 }
 
 .editors-pick {
+  margin-top: -100px;
   position: absolute;
   right: 10vw;
   width: 240px;
-  margin-top: -100px;
 }
 
 .holder img {
-  width: 75px;
   height: 75px;
+  width: 75px;
 }
 
 .holder p {
@@ -206,112 +220,130 @@ iframe {
 
 .editors-pick h4 {
   border-bottom: 1px solid rgb(226, 226, 226);
-  padding-bottom: 10px;
   font-size: 14px;
   font-weight: 700;
+  padding-bottom: 10px;
 }
 
 .theory-container {
   height: 600px;
-  width: 1000px;
-  margin: 4rem 0px 15rem;
+  margin: 4rem 0 15rem;
   margin-left: -170px;
   position: relative;
+  width: 1000px;
 }
+
 .theory-image {
-  width: 100%;
-  height: 100%;
   background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png")
     center no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
 }
+
 .theory-content {
   display: grid;
+  font-size: 0.7rem;
   grid-gap: 15px;
   grid-template-columns: repeat(4, 1fr);
-  font-size: 0.7rem;
 }
+
 .theory-content p {
   font-size: 14px;
 }
+
 .t-1 {
   padding-top: 8.5rem;
 }
+
 .t-2 {
   padding-top: 9rem;
 }
+
 .theory-container figcaption {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
   margin: 30px 0 0 0;
   padding-top: 15px;
-  font-weight: 500;
-  font-size: 14px;
-  color: #333;
 }
+
 .theory-container figcaption::before {
-  content: "";
-  position: absolute;
-  padding-left: 99px;
-  bottom: -136px;
   border-bottom: 1px solid #000;
+  bottom: -136px;
+  content: "";
+  padding-left: 99px;
+  position: absolute;
 }
+
 .grid-box {
   display: grid;
+  grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto auto;
   grid-template-rows: auto;
-  grid-gap: 20px;
-  max-width: 1200px;
-  padding: 0px 3%;
   margin: 50px auto;
+  max-width: 1200px;
+  padding: 0 3%;
 }
+
 .astronomy {
+  border-top: 1px solid #333;
   grid-column: 1/4;
   grid-row: 1/2;
-  border-top: 1px solid #333;
 }
+
 .popular {
   border-top: 1px solid #333;
   grid-column: 4/5;
   grid-row: 1/3;
 }
+
 .p-y {
-  padding: 20px 0;
   margin: 0;
+  padding: 20px 0;
 }
+
 .p-y a {
-  text-decoration: none;
   color: #000;
+  text-decoration: none;
 }
+
 .p-y a:hover {
   text-decoration: underline;
 }
+
 .b-1 {
   border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .articles {
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 2;
-  grid-gap: 10px;
 }
+
 .single-article {
   grid-column: 1fr;
 }
+
 .single-article img {
   width: 100%;
 }
+
 .single-article p {
+  color: #212121;
   font-size: 17px;
   font-weight: 900;
-  color: #212121;
-  margin: 4px 0px;
+  margin: 4px 0;
 }
+
 .popular-articles a {
-  text-decoration: none;
   color: rgb(18, 18, 18);
-  font-weight: 500;
   font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 .popular-articles {
@@ -328,20 +360,21 @@ iframe {
 
 .text-right {
   font-size: 10px;
-  text-align: right;
   font-weight: 400;
+  text-align: right;
 }
+
 .popular-articles:hover {
   opacity: 0.8;
 }
 
 .grid-box2 {
-  grid-column: 1/4;
-  grid-row: 2/3;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
   border-top: 1px solid #333;
+  display: grid;
+  grid-column: 1/4;
+  grid-gap: 10px;
+  grid-row: 2/3;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .grid-box2 h4 {
@@ -349,10 +382,10 @@ iframe {
 }
 
 .single-article p a {
+  color: #212121;
   font-size: 17px;
   font-weight: 900;
-  color: #212121;
-  margin: 4px 0px;
+  margin: 4px 0;
   text-decoration: none;
 }
 
@@ -363,11 +396,12 @@ iframe {
 footer {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
   padding: 0 3%;
   padding-bottom: 10px;
 }
+
 footer::before {
   border-bottom: 1px solid #e2e2e2;
   border-top: 2px solid #e2e2e2;
@@ -379,7 +413,7 @@ footer::before {
   width: 1200px;
 }
 
-footer h2 {
+footer .footer-logo {
   grid-column: 1/2;
   grid-row: 1/2;
 }
@@ -390,26 +424,26 @@ footer > div {
 }
 
 .home-page {
-  justify-self: end;
   align-self: center;
   color: rgb(86, 123, 149);
-  text-decoration: none;
   font-size: 11px;
   grid-column: 7/8;
+  justify-self: end;
+  text-decoration: none;
 }
 
 footer div h4 {
-  font-size: 13px;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
   font-weight: 900;
-  color: rgb(51, 51, 51);
   margin: 0;
 }
 
 footer > div > a {
+  color: #000;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
-  color: #000;
 }
 
 footer div a:hover {
@@ -422,11 +456,11 @@ footer div a:hover {
 }
 
 .large-style {
+  color: #000;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
   text-decoration: none;
-  color: #000;
 }
 
 .sub-top {
@@ -438,10 +472,10 @@ footer div a:hover {
 }
 
 .small-style {
+  color: #000;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
-  color: #000;
 }
 
 .sub-middle {
@@ -455,19 +489,19 @@ footer div a:hover {
 
 .bottom-links {
   color: rgb(102, 102, 102);
+  display: flex;
   font-size: 11px;
   font-weight: 400;
-  display: flex;
-  margin: 20px auto;
   justify-content: center;
-  width: 1200px;
+  margin: 20px auto;
   padding-bottom: 30px;
+  width: 1200px;
 }
 
 .bottom-links > a {
-  text-decoration: none;
-  padding-left: 10px;
   color: #666;
+  padding-left: 10px;
+  text-decoration: none;
 }
 
 .bottom-links > a svg {
