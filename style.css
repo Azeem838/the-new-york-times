@@ -236,14 +236,18 @@ iframe {
   padding-top: 9rem;
 }
 .theory-container figcaption {
-  margin: 30px;
+  margin: 30px 0 0 0;
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
 }
 .theory-container figcaption::before {
   content: "";
   position: absolute;
   padding-left: 99px;
   bottom: -136px;
-  border-bottom: 2px solid #333;
+  border-bottom: 1px solid #000;
 }
 .grid-box {
   display: grid;
