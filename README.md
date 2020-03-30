@@ -2,7 +2,7 @@
 
 > This project was to clone the The New York Times Article account and is part of the Positioning and Floating Elements section in the Microverse Curriculum.
 
-![screenshot](./nyt.png)
+![screenshot](./images/nyt.png)
 
 This project contains the following features:
 
