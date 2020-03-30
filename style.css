@@ -251,17 +251,22 @@ iframe {
 }
 .grid-box {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-rows: auto;
   grid-gap: 20px;
-  width: 90%;
+  width: 65%;
   margin: 50px auto;
 }
 .astronomy {
-  grid-column: 1/3;
+  grid-column: 1/2;
+  grid-row: 1/2;
   border-top: 1px solid #333;
 }
 .popular {
   border-top: 1px solid #333;
+  grid-column: 2/3;
+  grid-row: 1/3;
 }
 .p-y {
   padding: 20px 0;
@@ -298,14 +303,53 @@ iframe {
 }
 .popular-articles a {
   text-decoration: none;
-  color: rgb(2, 2, 2);
+  color: rgb(18, 18, 18);
   font-weight: 500;
+  font-size: 17px;
 }
+
+.popular-articles {
+  padding-bottom: 10px;
+}
+
+.popular-articles:not(:last-child) {
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.main-popular {
+  line-height: 27px;
+}
+
 .text-right {
   font-size: 10px;
   text-align: right;
   font-weight: 400;
 }
 .popular-articles:hover {
+  opacity: 0.8;
+}
+
+.grid-box2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  border-top: 1px solid #333;
+}
+
+.grid-box2 h4 {
+  grid-column: 1/4;
+}
+
+.single-article p a {
+  font-size: 17px;
+  font-weight: 900;
+  color: #212121;
+  margin: 4px 0px;
+  text-decoration: none;
+}
+
+.single-article p a:hover {
   opacity: 0.8;
 }
