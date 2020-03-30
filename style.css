@@ -356,5 +356,82 @@ iframe {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(5, 1fr) 2fr;
+  grid-template-columns: repeat(6, 1fr);
+  width: 65%;
+  margin: 0 auto;
+  border-top: 2px solid rgb(226, 226, 226);
+  border-bottom: 1px solid #ebebeb;
+}
+
+footer h2 {
+  grid-column: 1/6;
+  grid-row: 1/2;
+}
+
+footer > div {
+  grid-row: 2/3;
+  line-height: 25px;
+}
+
+.home-page {
+  justify-self: end;
+  align-self: center;
+  color: rgb(86, 123, 149);
+  text-decoration: none;
+  font-size: 11px;
+}
+
+footer div h4 {
+  font-size: 13px;
+  font-weight: 900;
+  color: rgb(51, 51, 51);
+  margin: 0;
+}
+
+footer > div > a {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+
+footer div a:hover {
+  text-decoration: underline;
+}
+
+.sub-foot {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 15px;
+}
+
+.large-style {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.sub-top {
+  padding-bottom: 20px;
+}
+
+.large-style svg {
+  padding-right: 10px;
+}
+
+.small-style {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+
+.sub-middle {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 10px;
+}
+
+.sub-bottom {
+  padding-top: 10px;
 }
