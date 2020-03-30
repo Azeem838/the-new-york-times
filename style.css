@@ -20,11 +20,15 @@ img {
   background: #fff;
   z-index: 9;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   border-bottom: 1px solid #e2e2e2;
   height: 40px;
   margin-bottom: 5px;
+}
+
+.footer-logo {
+  padding-top: 15px;
 }
 
 footer > div > a {
@@ -232,6 +236,19 @@ iframe {
   font-size: 15px;
   color: #666;
   width: 77%;
+  margin-top: 55px;
+}
+
+.vid-caption {
+  margin: 0 0 30px 0;
+}
+
+.theory-container p.caption::before {
+  content: "";
+  position: absolute;
+  padding-left: 99px;
+  bottom: -185px;
+  border-bottom: 1px solid #000;
 }
 
 .time {
@@ -465,7 +482,7 @@ footer > div {
 }
 
 .large-style {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   line-height: 30px;
   text-decoration: none;

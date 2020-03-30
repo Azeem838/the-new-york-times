@@ -1,20 +1,20 @@
-# Mint.com Account Sign-Up Page Clone
+# Clone of The New York Times Article: Space Ripples Reveal Big Bang’s Smoking Gun
 
-> This project was to clone the mint.com account sign up page and is part of the HTML Forms section in the Microverse Curriculum.
+> This project was to clone the The New York Times Article account and is part of the Positioning and Floating Elements section in the Microverse Curriculum.
 
-![screenshot](./mint.png)
+![screenshot](./nyt.png)
 
 This project contains the following features:
 
-1. Header, Footers and Main body Form
-2. Required input fields for Email, Phone, Password and Confirm Password
-3. Privacy policy, terms of use and reCaptcha statements
-4. Create Account button, title and logo
+1. Header, Footers and Main body Article
+2. Aside for Editors' Picks, Grid Layouts and FlexBox was used 
+3. Embedded video, "More in Astronomy" Section, Most Popular Section
+4. Final Footer with links to all other parts of The New York Times
 
 ## Built With
 
 - HTML5 and CSS
-- Materialize Icons
+- Font Awesome Icons
 
 ## Live Demo
 
@@ -22,13 +22,16 @@ This project contains the following features:
 
 ## Authors
 
-👤 **Author1**
+👤 Azeem Ahmed
 
 - Github: [@Azeem838](https://github.com/Azeem838)
 
-👤 **Author2**
+👤 Akash Pathak
 
-- Github: [@Hillarioh](https://github.com/hillarioh)
+- Github: @0prodigy
+- Twitter: @pathakprodigy
+- Linkedin: Akash Pathak
+- Email: (pathakvikash9211@gmail.com)
 
 ## 🤝 Contributing
 
