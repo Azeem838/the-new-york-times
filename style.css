@@ -255,7 +255,8 @@ iframe {
   grid-template-rows: auto auto;
   grid-template-rows: auto;
   grid-gap: 20px;
-  width: 65%;
+  max-width: 1200px;
+  padding: 0px 3%;
   margin: 50px auto;
 }
 .astronomy {
@@ -357,10 +358,11 @@ iframe {
 footer {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  width: 65%;
+  max-width: 1200px;
   margin: 0 auto;
   border-top: 2px solid rgb(226, 226, 226);
   border-bottom: 1px solid #ebebeb;
+  padding: 0 3%;
   padding-bottom: 10px;
 }
 
