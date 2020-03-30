@@ -18,7 +18,7 @@ This project contains the following features:
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/hillarioh/Mint.com-Signup-Page-Clone/7e6ae5140a69a5ad388f2c79538b72e2db893245/index.html)
+[Live Demo Link](https://rawcdn.githack.com/0prodigy/the-new-york-times/9369aa16b20a4e817f47bbd0a6dad0fea1bff21b/index.html)
 
 ## Authors
 
@@ -37,7 +37,7 @@ This project contains the following features:
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/hillarioh/Mint.com-Signup-Page-Clone/issues).
+Feel free to check the [issues page](https://github.com/0prodigy/the-new-york-times/issues).
 
 ## Show your support
 
