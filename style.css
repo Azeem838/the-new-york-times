@@ -353,3 +353,8 @@ iframe {
 .single-article p a:hover {
   opacity: 0.8;
 }
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr) 2fr;
+}
