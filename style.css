@@ -556,6 +556,29 @@ footer > div {
   padding-right: 3px;
 }
 
+.bottom-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.bottom-bar div {
+  width: 75%;
+  text-align: center;
+}
+.bottom-bar button {
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  font-size: 15px;
+  color: #252424;
+}
+.bottom-bar button .fa-chevron-down {
+  margin-left: 22px;
+}
 @media (max-width: 900px) {
   .editors-pick {
     display: none;
