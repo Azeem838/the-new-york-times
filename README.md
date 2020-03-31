@@ -7,7 +7,7 @@
 This project contains the following features:
 
 1. Header, Footers and Main body Article
-2. Aside for Editors' Picks, Grid Layouts and FlexBox was used 
+2. Aside for Editors' Picks, Grid Layouts and FlexBox was used
 3. Embedded video, "More in Astronomy" Section, Most Popular Section
 4. Final Footer with links to all other parts of The New York Times
 
@@ -18,7 +18,7 @@ This project contains the following features:
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/0prodigy/the-new-york-times/9369aa16b20a4e817f47bbd0a6dad0fea1bff21b/index.html)
+[Live Demo Link](https://0prodigy.github.io/the-new-york-times/)
 
 ## Authors
 
@@ -28,9 +28,9 @@ This project contains the following features:
 
 👤 Akash Pathak
 
-- Github: @0prodigy
-- Twitter: @pathakprodigy
-- Linkedin: Akash Pathak
+- Github: [@0prodigy](https://github.com/0prodigy)
+- Twitter: [@pathakprodigy](https://twitter.com/pathakprodigy)
+- Linkedin: [Akash Pathak](https://www.linkedin.com/in/akash-pathak-0796a7165)
 - Email: (pathakvikash9211@gmail.com)
 
 ## 🤝 Contributing
