@@ -1,7 +1,7 @@
 body {
+  font-family: "Lora", serif;
   margin: 0;
   padding: 0;
-  font-family: "Lora", serif;
 }
 
 img {
@@ -14,17 +14,17 @@ img {
 }
 
 .navbar {
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  height: 40px;
+  justify-content: space-around;
+  margin-bottom: 5px;
   position: fixed;
   top: 0;
   width: 100%;
-  background: #fff;
   z-index: 9;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: 1px solid #e2e2e2;
-  height: 40px;
-  margin-bottom: 5px;
 }
 
 .footer-logo {
@@ -32,30 +32,30 @@ img {
 }
 
 footer > div > a {
+  color: #000;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
-  color: #000;
 }
 
 .leftnav {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .leftnav a {
-  padding: 12px;
   color: black;
+  padding: 12px;
 }
 
 .logo {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .navtitle {
-  text-decoration: none;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .navtitle:hover {
@@ -63,28 +63,28 @@ footer > div > a {
 }
 
 .rightnav a {
-  color: white;
-  border: 1px solid #326891;
   background-color: #567b95;
+  border: 1px solid #326891;
   border-radius: 3px;
-  text-decoration: none;
-  padding: 11px 12px 8px 12px;
+  color: white;
   font-size: 11px;
   font-weight: 700;
   margin-right: 12px;
+  padding: 11px 12px 8px 12px;
+  text-decoration: none;
 }
 
 .article {
-  width: 70%;
   margin: 100px auto 5px;
+  width: 70%;
 }
 
 .article-title {
+  font-family: "Vollkorn", serif;
   font-size: 2rem;
   font-style: italic;
   font-weight: 700;
   padding: 0 300px 0 150px;
-  font-family: "Vollkorn", serif;
 }
 
 .article-img-container,
@@ -101,8 +101,8 @@ footer > div > a {
 }
 
 .caption span {
-  font-size: 13px;
   color: #888;
+  font-size: 13px;
 }
 
 .figcaption p span {
@@ -129,8 +129,8 @@ footer > div > a {
 }
 
 .article-content {
-  width: 600px;
   margin: 2px auto;
+  width: 600px;
 }
 
 .article-author a {
@@ -144,33 +144,33 @@ footer > div > a {
 }
 
 .article-meta {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .article-author a {
-  color: #333;
   border-bottom: 1px solid #ccc;
+  color: #333;
   text-decoration: none;
 }
 
 .p-y a {
-  text-decoration: none;
   color: #000;
+  text-decoration: none;
 }
 
 .popular-articles a {
-  text-decoration: none;
   color: rgb(18, 18, 18);
-  font-weight: 500;
   font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 .bottom-links > a {
-  text-decoration: none;
-  padding-left: 10px;
   color: #666;
+  padding-left: 10px;
+  text-decoration: none;
 }
 
 .holder p a {
@@ -179,9 +179,9 @@ footer > div > a {
 }
 
 .single-article p a {
+  color: #212121;
   font-size: 17px;
   font-weight: 900;
-  color: #212121;
   margin: 4px 0;
   text-decoration: none;
 }
@@ -195,14 +195,14 @@ footer div a:hover {
 }
 
 .article-meta .links a {
-  padding: 6px;
-  display: inline;
-  margin-right: 12px;
-  color: #000;
-  font-size: 0.8rem;
-  border-radius: 50%;
   background-color: #eee;
   border: 1px solid #eeee;
+  border-radius: 50%;
+  color: #000;
+  display: inline;
+  font-size: 0.8rem;
+  margin-right: 12px;
+  padding: 6px;
 }
 
 .article-author a:hover {
@@ -222,50 +222,50 @@ footer div a:hover {
 }
 
 .links {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .links a.bookmark {
-  border: none;
   background: none;
+  border: none;
+  border-radius: 0;
   font-size: 1.6rem;
   font-weight: 100;
-  padding: 0;
-  border-radius: 0;
   margin-top: 2px;
+  padding: 0;
 }
 
 .text-content {
+  color: #333;
   font-size: 20px;
   font-weight: 200;
-  color: #333;
 }
 
 .comments::before {
   content: "615";
   font-size: 10px;
+  padding: 5px;
   position: absolute;
   text-align: center;
-  padding: 5px;
 }
 
 .article-author {
+  color: #333;
   font-size: 15px;
   font-weight: 700;
-  color: #333;
 }
 
 iframe {
-  width: 100%;
   height: 358px;
+  width: 100%;
 }
 
 .caption {
-  font-size: 15px;
   color: #666;
-  width: 77%;
+  font-size: 15px;
   margin-top: 55px;
+  width: 77%;
 }
 
 .vid-caption {
@@ -273,28 +273,28 @@ iframe {
 }
 
 .theory-container p.caption::before {
-  content: "";
-  position: absolute;
-  padding-left: 99px;
-  bottom: -185px;
   border-bottom: 1px solid #000;
+  bottom: -185px;
+  content: "";
+  padding-left: 99px;
+  position: absolute;
 }
 
 .time {
-  font-size: 12px;
   color: #666;
+  font-size: 12px;
 }
 
 .editors-pick {
+  margin-top: -100px;
   position: absolute;
   right: 10vw;
   width: 240px;
-  margin-top: -100px;
 }
 
 .holder img {
-  width: 75px;
   height: 75px;
+  width: 75px;
 }
 
 .holder p {
@@ -307,9 +307,9 @@ iframe {
 }
 
 .single-article p {
+  color: #212121;
   font-size: 17px;
   font-weight: 900;
-  color: #212121;
   margin: 4px 0;
 }
 
@@ -323,40 +323,41 @@ iframe {
 }
 
 footer div h4 {
+  color: rgb(51, 51, 51);
   font-size: 13px;
   font-weight: 900;
-  color: rgb(51, 51, 51);
   margin: 0;
 }
 
 .editors-pick h4 {
   border-bottom: 1px solid rgb(226, 226, 226);
-  padding-bottom: 10px;
   font-size: 14px;
   font-weight: 700;
+  padding-bottom: 10px;
 }
 
 .theory-container {
   height: 600px;
-  width: 1000px;
   margin: 4rem 0 15rem;
   margin-left: -170px;
   position: relative;
+  width: 1000px;
 }
 
 .theory-image {
-  width: 100%;
-  height: 100%;
-  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png")
+  background:
+    url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png")
     center no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .theory-content {
   display: grid;
+  font-size: 0.7rem;
   grid-gap: 15px;
   grid-template-columns: repeat(4, 1fr);
-  font-size: 0.7rem;
 }
 
 .t-1 {
@@ -368,36 +369,36 @@ footer div h4 {
 }
 
 .theory-container figcaption {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
   margin: 30px 0 0 0;
   padding-top: 15px;
-  font-weight: 500;
-  font-size: 14px;
-  color: #333;
 }
 
 .theory-container figcaption::before {
-  content: "";
-  position: absolute;
-  padding-left: 99px;
-  bottom: -136px;
   border-bottom: 1px solid #000;
+  bottom: -136px;
+  content: "";
+  padding-left: 99px;
+  position: absolute;
 }
 
 .grid-box {
   display: grid;
+  grid-gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto auto;
   grid-template-rows: auto;
-  grid-gap: 20px;
+  margin: 50px auto;
   max-width: 1200px;
   padding: 0 3%;
-  margin: 50px auto;
 }
 
 .astronomy {
+  border-top: 1px solid #333;
   grid-column: 1/4;
   grid-row: 1/2;
-  border-top: 1px solid #333;
 }
 
 .popular {
@@ -407,8 +408,8 @@ footer div h4 {
 }
 
 .p-y {
-  padding: 20px 0;
   margin: 0;
+  padding: 20px 0;
 }
 
 .b-1 {
@@ -417,9 +418,9 @@ footer div h4 {
 
 .articles {
   display: grid;
+  grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 2;
-  grid-gap: 10px;
 }
 
 .single-article {
@@ -444,8 +445,8 @@ footer div h4 {
 
 .text-right {
   font-size: 10px;
-  text-align: right;
   font-weight: 400;
+  text-align: right;
 }
 
 .popular-articles:hover {
@@ -453,12 +454,12 @@ footer div h4 {
 }
 
 .grid-box2 {
-  grid-column: 1/4;
-  grid-row: 2/3;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
   border-top: 1px solid #333;
+  display: grid;
+  grid-column: 1/4;
+  grid-gap: 10px;
+  grid-row: 2/3;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .grid-box2 h4 {
@@ -468,8 +469,8 @@ footer div h4 {
 footer {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
   padding: 0 3%;
   padding-bottom: 10px;
 }
@@ -496,12 +497,12 @@ footer > div {
 }
 
 .home-page {
-  justify-self: end;
   align-self: center;
   color: rgb(86, 123, 149);
-  text-decoration: none;
   font-size: 11px;
   grid-column: 7/8;
+  justify-self: end;
+  text-decoration: none;
 }
 
 .sub-foot {
@@ -510,11 +511,11 @@ footer > div {
 }
 
 .large-style {
+  color: #000;
   font-size: 14px;
   font-weight: 700;
   line-height: 30px;
   text-decoration: none;
-  color: #000;
 }
 
 .sub-top {
@@ -526,10 +527,10 @@ footer > div {
 }
 
 .small-style {
+  color: #000;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
-  color: #000;
 }
 
 .sub-middle {
@@ -543,13 +544,13 @@ footer > div {
 
 .bottom-links {
   color: rgb(102, 102, 102);
+  display: flex;
   font-size: 11px;
   font-weight: 400;
-  display: flex;
-  margin: 20px auto;
   justify-content: center;
-  width: 1200px;
+  margin: 20px auto;
   padding-bottom: 30px;
+  width: 1200px;
 }
 
 .bottom-links > a svg {
@@ -557,28 +558,33 @@ footer > div {
 }
 
 .bottom-bar {
+  align-items: center;
+  background: #fff;
+  border-top: 1px solid #000;
+  bottom: 0;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  border-top: 1px solid #000;
   position: fixed;
-  bottom: 0;
   width: 100%;
 }
+
 .bottom-bar div {
-  width: 75%;
   text-align: center;
+  width: 75%;
 }
+
 .bottom-bar button {
-  border: none;
   background: transparent;
-  font-weight: 700;
-  font-size: 15px;
+  border: none;
   color: #252424;
+  font-size: 15px;
+  font-weight: 700;
 }
+
 .bottom-bar button .fa-chevron-down {
   margin-left: 22px;
 }
+
 @media (max-width: 900px) {
   .editors-pick {
     display: none;
